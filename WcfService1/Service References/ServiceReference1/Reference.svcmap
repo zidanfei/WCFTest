@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="6b7fac1a-7651-4622-a103-92886b4ea47f" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://127.0.0.1:9999/CustomerService" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="CustomerService.xsd" MetadataType="Schema" ID="b2680c19-8ea1-4f8e-b078-754ce93a1147" SourceId="1" SourceUrl="http://127.0.0.1:9999/CustomerService?xsd=xsd1" />
+    <MetadataFile FileName="CustomerService1.xsd" MetadataType="Schema" ID="807f7c0c-f314-4f98-8faf-857ebccc1f60" SourceId="1" SourceUrl="http://127.0.0.1:9999/CustomerService?xsd=xsd2" />
+    <MetadataFile FileName="CustomerService.wsdl" MetadataType="Wsdl" ID="8a580de5-2d71-421c-8456-14da93de601f" SourceId="1" SourceUrl="http://127.0.0.1:9999/CustomerService?wsdl" />
+    <MetadataFile FileName="CustomerService.disco" MetadataType="Disco" ID="472c3be3-e46c-431a-9d31-ec945c783dff" SourceId="1" SourceUrl="http://127.0.0.1:9999/CustomerService?disco" />
+    <MetadataFile FileName="CustomerService2.xsd" MetadataType="Schema" ID="fe52a158-5ddd-420d-be97-55b4f3d0657a" SourceId="1" SourceUrl="http://127.0.0.1:9999/CustomerService?xsd=xsd0" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

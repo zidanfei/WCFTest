@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="47039e3f-21c6-4f44-919c-b5461bb03927" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://127.0.0.1:4547/SyncUnitService" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="SyncUnitService3.xsd" MetadataType="Schema" ID="ed14dbd3-3ce7-4583-abfa-edd99f095af7" SourceId="1" SourceUrl="http://127.0.0.1:4547/SyncUnitService?xsd=xsd0" />
+    <MetadataFile FileName="SyncUnitService31.xsd" MetadataType="Schema" ID="cabe178b-67a5-437a-9cd7-c7a8186f9d88" SourceId="1" SourceUrl="http://127.0.0.1:4547/SyncUnitService?xsd=xsd1" />
+    <MetadataFile FileName="SyncUnitService1.disco" MetadataType="Disco" ID="abb7b862-4790-4658-9d1f-19f51530573e" SourceId="1" SourceUrl="http://127.0.0.1:4547/SyncUnitService?disco" />
+    <MetadataFile FileName="SyncUnitService1.wsdl" MetadataType="Wsdl" ID="66a4bc3e-e58e-460f-a081-6215992fca6e" SourceId="1" SourceUrl="http://127.0.0.1:4547/SyncUnitService?wsdl" />
+    <MetadataFile FileName="SyncUnitService32.xsd" MetadataType="Schema" ID="7bbb502f-fcc7-443c-8459-dd8e9571655a" SourceId="1" SourceUrl="http://127.0.0.1:4547/SyncUnitService?xsd=xsd2" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>
