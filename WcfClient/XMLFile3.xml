@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<s:Envelope xmlns:s="http://www.w3.org/2003/05/soap-envelope" xmlns:a="http://www.w3.org/2005/08/addressing">
+  <s:Header>
+    <a:Action s:mustUnderstand="1">
+      http://docs.oasis-open.org/ws-sx/ws-trust/200512/RSTR/Issue
+    </a:Action>
+    <a:MessageID>
+      urn:uuid:5bf74006-a324-495f-a409-bf0ef2f02b68
+    </a:MessageID>
+    <a:ReplyTo>
+      <a:Address>http://www.w3.org/2005/08/addressing/anonymous</a:Address>
+    </a:ReplyTo>
+    <a:To s:mustUnderstand="1">http://10.2.3.62:8077/SecurityTokenService</a:To>
+  </s:Header>
+  <s:Body>
+    <trust:RequestSecurityTokenResponse Context="uuid-390cc40f-c458-4de2-8789-8a84b0dfdb74-3" xmlns:trust="http://docs.oasis-open.org/ws-sx/ws-trust/200512" xmlns:u="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd">
+      <trust:BinaryExchange ValueType="http://schemas.xmlsoap.org/ws/2005/02/trust/spnego" EncodingType="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-soap-message-security-1.0#Base64Binary">
+        TlRMTVNTUAADAAAAGAAYAIYAAAAgASABngAAABIAEgBYAAAACgAKAGoAAAASABIAdAAAABAAEAC+AQAANYKY4gYDgCUAAAAPTypwsQvhBFSzelnHVfZIWWkAdwBzAC0AYwBoAGwAaQB1AGEAZABtAGkAbgBJAFcAUwAtAEMASABMAEkAVQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA2w5pm+Pono9YxL2SOdLdqAQEAAAAAAAC5SORrUGHQAYuy/cHXPr93AAAAAAIABgBIAFIATQABABAASABFAEcARQBaAEgATwBVAAQADgBoAHIAbQAuAGMAbwBtAAMAIABoAGUAZwBlAHoAaABvAHUALgBoAHIAbQAuAGMAbwBtAAUADgBoAHIAbQAuAGMAbwBtAAcACAC5SORrUGHQAQYABAACAAAACAAwADAAAAAAAAAAAQAAAAAgAAB+MyqB8xF00SjRD0B/JQfPVbLNIBZahAD4xFzngdC6XgoAEAAAAAAAAAAAAAAAAAAAAAAACQAiAEgAUgBNAFwAYQBkAG0AaQBuAGkAcwB0AHIAYQB0AG8AcgAAAAAAAAAAAAAAAACZXOo5wjLlTvIwBC5f1zCp
+      </trust:BinaryExchange></trust:RequestSecurityTokenResponse>
+  </s:Body>
+</s:Envelope>

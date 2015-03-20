@@ -7,7 +7,7 @@
 // </自动生成>
 //------------------------------------------------------------------------------
 
-namespace WebApplication1 {
+namespace WebAppClient {
     
     
     public partial class WebForm1 {

@@ -7,7 +7,7 @@ using System.ServiceModel.Web;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace WebApplication1
+namespace WebAppClient
 {
     [ServiceContract(Namespace = "http://www.artech.com/")]
     public interface ICustomerService

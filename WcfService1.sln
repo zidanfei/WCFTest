@@ -17,7 +17,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClassLibrary2", "ClassLibra
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WcfClient", "WcfClient\WcfClient.csproj", "{BBC38E1B-B2D8-4CDB-9BC5-D86FD053E47C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApplication1", "WebApplication1\WebApplication1.csproj", "{142878AF-74E3-4759-AD4D-F8F2D0ED531C}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebAppClient", "WebApplication1\WebAppClient.csproj", "{142878AF-74E3-4759-AD4D-F8F2D0ED531C}"
 	ProjectSection(ProjectDependencies) = postProject
 		{CC2D50FA-8127-40BB-9361-C6C562250BC0} = {CC2D50FA-8127-40BB-9361-C6C562250BC0}
 	EndProjectSection

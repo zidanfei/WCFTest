@@ -12,7 +12,7 @@ using System.ServiceModel.Web;
 
 
 
-namespace WebApplication1
+namespace WebAppClient
 {
     public class MvcApplication : System.Web.HttpApplication
     {

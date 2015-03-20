@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<s:Envelope xmlns:s="http://www.w3.org/2003/05/soap-envelope" xmlns:a="http://www.w3.org/2005/08/addressing">
+  <s:Header>
+    <a:Action s:mustUnderstand="1">
+      http://docs.oasis-open.org/ws-sx/ws-trust/200512/RSTR/Issue
+    </a:Action>
+    <a:RelatesTo>urn:uuid:3e6d674e-5639-4bda-8ea4-aa8eb94d26e6</a:RelatesTo>
+  </s:Header>
+  <s:Body>
+    <trust:RequestSecurityTokenResponse Context="uuid-390cc40f-c458-4de2-8789-8a84b0dfdb74-3" xmlns:trust="http://docs.oasis-open.org/ws-sx/ws-trust/200512" xmlns:u="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd">
+      <trust:BinaryExchange ValueType="http://schemas.xmlsoap.org/ws/2005/02/trust/spnego" EncodingType="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-soap-message-security-1.0#Base64Binary">
+        TlRMTVNTUAACAAAABgAGADgAAAA1gpni03prhzHH9IUAAAAAAAAAAHYAdgA+AAAABgLwIwAAAA9IAFIATQACAAYASABSAE0AAQAQAEgARQBHAEUAWgBIAE8AVQAEAA4AaAByAG0ALgBjAG8AbQADACAAaABlAGcAZQB6AGgAbwB1AC4AaAByAG0ALgBjAG8AbQAFAA4AaAByAG0ALgBjAG8AbQAHAAgAuUjka1Bh0AEAAAAA</trust:BinaryExchange>
+    </trust:RequestSecurityTokenResponse>
+  </s:Body>
+</s:Envelope>

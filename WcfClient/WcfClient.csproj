@@ -120,6 +120,16 @@
     <Content Include="Config\ServerSettings.xml">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
+    <None Include="Service References\ClaimsAwareWebServices\ClaimsAwareWebService.disco" />
+    <None Include="Service References\ClaimsAwareWebServices\configuration91.svcinfo" />
+    <None Include="Service References\ClaimsAwareWebServices\configuration.svcinfo" />
+    <None Include="Service References\ClaimsAwareWebServices\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+    <Content Include="XMLFile2.xml" />
+    <Content Include="XMLFile1.xml" />
+    <Content Include="XMLFile3.xml" />
     <None Include="Service References\LocalClaimsAwareWebServices\Reference.svcmap">
       <Generator>WCF Proxy Generator</Generator>
       <LastGenOutput>Reference.cs</LastGenOutput>
@@ -127,13 +137,6 @@
     <None Include="Service References\LocalClaimsAwareWebServices\configuration.svcinfo" />
     <None Include="Service References\LocalClaimsAwareWebServices\configuration91.svcinfo" />
     <None Include="Service References\LocalClaimsAwareWebServices\ClaimsAwareWebService.disco" />
-    <None Include="Service References\ClaimsAwareWebServices\Reference.svcmap">
-      <Generator>WCF Proxy Generator</Generator>
-      <LastGenOutput>Reference.cs</LastGenOutput>
-    </None>
-    <None Include="Service References\ClaimsAwareWebServices\configuration.svcinfo" />
-    <None Include="Service References\ClaimsAwareWebServices\configuration91.svcinfo" />
-    <None Include="Service References\ClaimsAwareWebServices\ClaimsAwareWebService.disco" />
     <None Include="Service References\CustomerServices\Reference.svcmap">
       <Generator>WCF Proxy Generator</Generator>
       <LastGenOutput>Reference.cs</LastGenOutput>
